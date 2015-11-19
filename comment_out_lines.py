@@ -11,8 +11,6 @@ def comment_out(text, line_length = 100):
     extract_short_lines = []
     new_lines = []
 
-    line_length = 100
-
     for item in split_text:
         short_lines.append(textwrap.wrap(item, line_length))
         
